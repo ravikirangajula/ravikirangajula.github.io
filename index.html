@@ -1,0 +1,12 @@
+<html><body><p>Mudah Sample App to check html communication with webkit siwft ios</p><button onclick="myFunction()">Click me</button>
+    <form>
+      <button formaction="https://lfconnect.com/MFP?success=false">LFAPP</button>
+    </form>
+    <script>
+    function myFunction() {
+        console.log("called java script");
+        webkit.messageHandlers.callbackHandler.postMessage("Hi Mudah i am from remote place")
+        //android code
+    }
+    </script>
+</body></html>
